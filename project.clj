@@ -3,7 +3,8 @@
   :url "https://github.com/inclojure-org/clojure-by-example"
   :license {:name "MIT"
             :url "https://opensource.org/licenses/MIT"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
+  :plugins [[nightlight/lein-nightlight "RELEASE"]]
+  :dependencies [[org.clojure/clojure "1.9.0"]]
   ;; LightTable dependencies
   ;; https://github.com/LightTable/Clojure/#connect-to-remote-nrepl
   :profiles {:dev {:dependencies [[lein-light-nrepl "0.3.3"]
