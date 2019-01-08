@@ -10,5 +10,4 @@
   :profiles {:dev {:dependencies [[lein-light-nrepl "0.3.3"]
                                   [enlive "1.1.6"]
                                   [cheshire "5.8.0"]
-                                  [criterium "0.4.4"]]}}
-  :repl-options {:nrepl-middleware [lighttable.nrepl.handler/lighttable-ops]})
+                                  [criterium "0.4.4"]]}})
